@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2"
+          preserve-order="true"
+          name="D:\Ana\QA\TesteMaven\TestMavenProject\src\test">
+        <classes>
+            <class name="Day2.TestNGClass">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
